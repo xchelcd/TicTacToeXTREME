@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:id="@+id/turnoTextView"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TableLayout
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0000"
+                                android:text="00000" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0001"
+                                android:text="0001" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0002"
+                                android:text="0002" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0010"
+                                android:text="0010" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0011"
+                                android:text="0011" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0012"
+                                android:text="0012" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0020"
+                                android:text="0020" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0021"
+                                android:text="0021" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0022"
+                                android:text="0022" />
+                        </TableRow>
+                    </TableLayout>
+                    <TableLayout
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0100"
+                                android:text="0100" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a0101"
+                                android:text="0101" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0102"
+                                android:text="0102" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:id="@+id/a0110"
+                                android:text="0110" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a0111"
+                                android:text="0111" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0112"
+                                android:text="0112" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a0120"
+                                android:text="0120" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a0121"
+                                android:text="0121" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0122"
+                                android:text="0122" />
+                        </TableRow>
+
+                    </TableLayout>
+                    <TableLayout
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0200"
+                                android:text="0200" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0201"
+                                android:text="0201" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0202"
+                                android:text="0202" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:id="@+id/a0210"
+                                android:text="0210" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a0211"
+                                android:text="0211" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0212"
+                                android:text="0212" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a0220"
+                                android:text="0220" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a0221"
+                                android:text="0221" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a0222"
+                                android:text="0222" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TableLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1000"
+                                android:text="1000" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1001"
+                                android:text="1001" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1002"
+                                android:text="1002" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1010"
+                                android:text="1010" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1011"
+                                android:text="1011" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1012"
+                                android:text="1012" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1020"
+                                android:text="1020" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1021"
+                                android:text="1021" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1022"
+                                android:text="1022" />
+                        </TableRow>
+
+                    </TableLayout>
+                    <TableLayout
+                        android:layout_margin="5dp"
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1100"
+                                android:text="1100" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1101"
+                                android:text="1101" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1102"
+                                android:text="1102" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1110"
+                                android:text="1110" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1111"
+                                android:text="1111" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1112"
+                                android:text="1112" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1120"
+                                android:text="1120" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1121"
+                                android:text="1121" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1122"
+                                android:text="1122" />
+                        </TableRow>
+                    </TableLayout>
+                    <TableLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1200"
+                                android:text="1200" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a1201"
+                                android:text="1201" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1202"
+                                android:text="1202" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:id="@+id/a1210"
+                                android:text="1210" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a1211"
+                                android:text="1211" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1212"
+                                android:text="1212" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a1220"
+                                android:text="1220" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:layout_marginEnd="2dp"
+                                android:id="@+id/a1221"
+                                android:text="1221" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a1222"
+                                android:text="1222" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TableLayout
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2000"
+                                android:text="2000" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2001"
+                                android:text="2001" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2002"
+                                android:text="2002" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2010"
+                                android:text="2010" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2011"
+                                android:text="2011" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2012"
+                                android:text="2012" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2020"
+                                android:text="2020" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2021"
+                                android:text="2021" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2022"
+                                android:text="2022" />
+                        </TableRow>
+
+                    </TableLayout>
+                    <TableLayout
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2100"
+                                android:text="2100" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2101"
+                                android:text="2101" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2102"
+                                android:text="2102" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2110"
+                                android:text="2110" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2111"
+                                android:text="2111" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2112"
+                                android:text="2112" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2120"
+                                android:text="2120" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2121"
+                                android:text="2121" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2122"
+                                android:text="2122" />
+                        </TableRow>
+                    </TableLayout>
+                    <TableLayout
+                        android:background="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2200"
+                                android:text="2200" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2201"
+                                android:text="2201" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2202"
+                                android:text="2202" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2210"
+                                android:text="2210" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2211"
+                                android:text="2211" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2212"
+                                android:text="2212" />
+                        </TableRow>
+                        <TableRow>
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2220"
+                                android:text="2220" />
+
+                            <Button
+                                android:layout_marginEnd="2dp"
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2221"
+                                android:text="2221" />
+
+                            <Button
+                                android:background="#FFFFFF"
+                                android:id="@+id/a2222"
+                                android:text="2222" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
